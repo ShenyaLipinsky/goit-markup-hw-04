@@ -12,6 +12,7 @@
   --second-button-color: #188ce8;
   --border-cards-color: #eeeeee;
   --border-header-color: #ececec;
+  --icons-first-color: #afb1b8;
 }
 /* .az {
   display: flex;
@@ -297,7 +298,7 @@ body {
   margin-bottom: 0;
 }
 .card {
-  background: #ffffff;
+  background: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -319,7 +320,7 @@ body {
 .our-team-description {
   display: flex;
   flex-direction: column;
-  padding: 30px 15px;
+  padding: 30px 32px;
   align-items: center;
 }
 .our-team .name {
@@ -351,7 +352,7 @@ body {
   min-height: 44px;
 }
 .icon-box {
-  fill: #afb1b8;
+  fill: var(--icons-first-color);
 }
 .icon-box:hover,
 .icon-box:focus,
@@ -393,7 +394,7 @@ body {
   height: 100%;
 }
 .client-icon-box {
-  fill: #afb1b8;
+  fill: var(--icons-first-color);
 }
 
 .client-box-item:hover,
